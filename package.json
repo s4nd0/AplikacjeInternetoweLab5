@@ -1,0 +1,21 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:mongo": "node scripts/testMongoRepository.js",
+    "test:mysql": "node scripts/testMySQLRepository.js",
+    "seed:mongo": "node src/seed/seedStudents.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "mongoose": "^9.12.1",
+    "mysql2": "^3.24.6"
+  }
+}
